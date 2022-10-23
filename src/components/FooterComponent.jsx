@@ -12,7 +12,7 @@ class FooterComponent extends React.Component {
                 <span className="text-white">Trade</span>
                 <br />
                 <span className="text-muted">
-                  Tukarkan barang anda untuk mendukung UMKM.
+                  Tukarkan sampah anda untuk mendukung UMKM.
                 </span>
               </strong>
             </div>

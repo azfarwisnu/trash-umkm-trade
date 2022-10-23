@@ -6,27 +6,26 @@ class TradeComponent extends React.Component {
     coin: 0,
   };
 
-  inputHandler = (e) => {
-    this.setState({
-      berat: e.target.value,
-    });
-  };
 
-  prosesTrade = () => {
-    let coin = this.state.berat;
+  inputHandler = (e) => {
+    let berat = e.target.value
+    let coin = e.target.value
     if (coin >= 1) {
-      let convert = parseInt(coin,10);
+      let convert = parseInt(coin,10) * 4;
       this.setState({
         coin: convert,
+        berat: berat,
       });
     } if (coin === 0) {
       this.setState({
         coin: 0,
+        bereat: berat,
       });
     } else {
-      let convert = coin;
+      let convert = coin * 4;
       this.setState({
         coin: convert,
+        berat: berat,
       });
     }
   };
@@ -65,7 +64,7 @@ class TradeComponent extends React.Component {
                   </div>
                 </div>
                 <div className="box-button mt-2 mb-2 text-center">
-                  <span type="button" onClick={this.prosesTrade} className="color-active">
+                  <span type="button" className="color-active">
                     <b>
                       <i className="bi bi-arrow-left-right h3"></i>
                     </b>

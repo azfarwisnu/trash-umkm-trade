@@ -10,31 +10,31 @@ class CardComponent extends React.Component {
             <div className="row">
               <div className="col-6 col-md-3 mb-4">
                 <div className="food-product">
-                  <img src={food} alt="product-img" />
+                  <img src="https://setc.id/res/images/umkm/Jahe%202.jpg" alt="product-img" />
                   <div className="mt-2">
-                    <span>Kripik Pedas</span>
+                    <span>Kue Jahe</span>
                     <br />
-                    <span className="text-muted">Kab.Kuningan</span>
+                    <span className="text-muted">Palembang</span>
                   </div>
                 </div>
               </div>
               <div className="col-6 col-md-3 mb-4">
                 <div className="food-product">
-                  <img src={food} alt="product-img" />
+                  <img src="https://setc.id/res/images/umkm/1605706803103_IMG_20201118_115252-01.jpg" alt="product-img" />
                   <div className="mt-2">
-                    <span>Kripik Pedas</span>
+                    <span>Pastri Kue Kering</span>
                     <br />
-                    <span className="text-muted">Kab.Kuningan</span>
+                    <span className="text-muted">Bekasi</span>
                   </div>
                 </div>
               </div>
               <div className="col-6 col-md-3 mb-4">
                 <div className="food-product">
-                  <img src={food} alt="product-img" />
+                  <img src="https://setc.id/res/images/umkm/P_20201118_080040-01.jpg" alt="product-img" />
                   <div className="mt-2">
-                    <span>Kripik Pedas</span>
+                    <span>Beauty Crem</span>
                     <br />
-                    <span className="text-muted">Kab.Kuningan</span>
+                    <span className="text-muted">Banjar</span>
                   </div>
                 </div>
               </div>
