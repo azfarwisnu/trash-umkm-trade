@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+@font-face {
+  font-family: poppins-normal;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+}
+
+body {
+  font-family: "poppins-normal", sans-serif;
+}
+
+.box-head {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.color-active {
+  color: #a6df00;
+}
+
+.color-active:hover {
+  color: #85b200;
+}
+
+.btn-active {
+  background-color: #a6df00;
+  color: white;
+}
+
+.btn-active:hover {
+  background-color: #85b200;
+  color: white;
+}
+
+.top-content pre b,
+.top-content pre {
+  font-weight: 800;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+
+.right img {
+  width: 100%;
+}
+
+.card-component img {
+  width: 100%;
+}
+
+.third-content .underline {
+  text-decoration: underline;
+  text-decoration-color: #a6df00;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 10px;
+}
+
+.third-content .up-content .left img {
+  width: 100%;
+}
+
+.third-content .up-content .right img {
+  width: 100%;
+}
+
+.third-content h3,
+h5 {
+  font-weight: 800;
+  color: black;
+}
+
+.h3-content {
+  text-decoration: underline;
+  text-decoration-color: #a6df00;
+  text-decoration-thickness: 5px;
+  text-underline-offset: 10px;
+}
+
+.border-radius {
+  border-radius: 12px;
+}
+
+.border-radius-v2 {
+  border-radius: 8px;
+}
+
+.black-box input {
+  background-color: black;
+  border-style: none;
+  color: white;
+  width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  font-weight: 800;
+}
+
+/* Firefox */
+input[type="number"] {
+  font-weight: 800;
+  -moz-appearance: textfield;
+}
